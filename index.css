@@ -1,0 +1,357 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.header {
+  margin: 0px;
+  padding: 0%;
+}
+
+.contenedor-header {
+  padding: 19px 18px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 769px) {
+  .contenedor-header {
+    margin: 0px auto;
+    padding: 0px 70px;
+  }
+}
+
+.logo-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-felix {
+  width: 54px;
+  height: 50px;
+}
+
+@media (min-width: 769px) {
+  .logo-felix {
+    width: 95px;
+    height: 109px;
+  }
+}
+
+.menu-hamburguesa {
+  display: grid;
+  grid-template-rows: 7px 7px 7px;
+  gap: 7px;
+  margin: 7px;
+}
+
+@media (min-width: 769px) {
+  .menu-hamburguesa {
+    display: none;
+  }
+}
+
+.menu-desktop {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .menu-desktop {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    align-items: center;
+  }
+}
+
+.submenu-desktop {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.link-menu {
+  background-color: #141414;
+  width: 36px;
+  height: 6px;
+}
+
+.titulo-imagen-header {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 769px) {
+  .titulo-imagen-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.titulo-header {
+  font-size: 48px;
+  text-align: center;
+  font-family: "Open Sans";
+  letter-spacing: -1px;
+  line-height: 48px;
+  padding: 10px;
+}
+
+@media (min-width: 769px) {
+  .titulo-header {
+    text-align: center;
+    width: 313px;
+    height: 96px;
+  }
+}
+
+.imagen-principal {
+  display: flex;
+}
+
+.section-uno {
+  background-color: #141414;
+}
+
+.contenedor-section {
+  padding: 20px 30px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 769px) {
+  .contenedor-section {
+    flex-direction: row-reverse;
+  }
+}
+.titulo-secundario {
+  font-size: 32px;
+  font-family: "Open Sans";
+  letter-spacing: -2px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 769px) {
+  .titulo-secundario {
+    justify-content: left;
+  }
+}
+
+.parrafo-seccion-uno {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  text-align: center;
+}
+@media (min-width: 769px) {
+  .parrafo-seccion-uno {
+    text-align: left;
+  }
+}
+
+.imagen-check {
+  padding: 10%;
+}
+
+@media (min-width: 769px) {
+  .imagen-check {
+    width: 211px;
+    height: 211px;
+  }
+}
+
+.contenedor-check {
+  justify-content: center;
+  display: flex;
+}
+
+@media (min-width: 769px) {
+  .contenedor-check {
+    padding: 90px;
+  }
+}
+
+.servicios {
+  margin: 0%;
+  padding: 50px 50px;
+}
+
+.contenedor-uno {
+  display: grid;
+  gap: 100px;
+}
+
+@media (min-width: 769px) {
+  .contenedor-uno {
+    display: flex;
+  }
+}
+
+.titulo-principal-servicios {
+  display: flex;
+  font-family: "Open Sans";
+  letter-spacing: -2px;
+  justify-content: center;
+  padding: 0px 0px 40px;
+}
+
+.titulo-servicio {
+  font-size: 32px;
+  margin: 0%;
+}
+
+.conte-servico-uno {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conte-servico-dos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conte-servico-tres {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo-servicios-secundario {
+  font-size: 24px;
+  text-align: center;
+}
+
+.parrafo-servico {
+  font-size: 16px;
+  text-align: center;
+  line-height: 19px;
+}
+
+.seccion-formulario {
+  background-color: #141414;
+  padding: 65px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-form {
+  width: 100%;
+  display: grid;
+  gap: 45px;
+}
+
+@media (min-width: 769px) {
+  .contenedor-form {
+    display: grid;
+    grid-template-columns: 270px 370px;
+    gap: 50px;
+    justify-content: center;
+  }
+}
+
+.titulo-formulario {
+  text-align: center;
+}
+
+@media (min-width: 769px) {
+  .titulo-formulario {
+    justify-self: end;
+  }
+}
+
+.tiluto-form {
+  margin: 0px;
+  font-size: 32px;
+  font-family: "Open Sans";
+  letter-spacing: -2px;
+}
+
+.conte-formulario {
+  display: grid;
+  gap: 9px;
+}
+
+.boton-form {
+  width: 100%;
+  height: 45px;
+  background-color: #ffd953;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (min-width: 769px) {
+  .boton-formulario {
+    grid-column: 2 / span 1;
+  }
+}
+
+.label {
+  display: block;
+  font-size: 13px;
+}
+
+.input-nombre,
+.input-mail,
+.text-area {
+  font-size: 13px;
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: 3px solid #2c2c2c;
+  padding: 5px;
+}
+
+.text-area {
+  min-height: 100px;
+}
+
+.footer {
+  padding: 50px 20px 65px;
+}
+
+@media (min-width: 769px) {
+  .footer {
+    margin: 0%;
+    padding: 0%;
+  }
+}
+
+@media (min-width: 769px) {
+  .conte-footer-general {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 120px 90px 80px;
+  }
+}
+
+.logo-footer {
+  width: 77px;
+  height: 71px;
+}
+
+.titulo-footer {
+  margin: 0%;
+  padding: 13px 0px 50px;
+}
+
+.instagram,
+.github,
+.linkedin {
+  margin-bottom: 30px;
+  display: grid;
+  gap: 7px;
+  grid-template-columns: 27px 73px;
+}
+.text-instagram {
+  margin: auto;
+}
